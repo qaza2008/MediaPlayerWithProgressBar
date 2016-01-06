@@ -8,12 +8,6 @@ import android.util.Log;
 
 import java.io.IOException;
 
-/**
- * Description:
- * TODO 网络异步待调整
- * 调用时自己实现接口
- * Created by liuxuegang1 on 2015/6/15.
- */
 public class MediaPlayers extends MediaPlayer implements MediaPlayer.OnCompletionListener {
 
     private static MediaPlayers mediaPlayer = null;

@@ -95,9 +95,6 @@ public class MainAdapter extends BaseAdapter {
                             } else {
                                 animationDrawable.stop();
                             }
-                        } else {
-                            progressBar.setMax(0);
-                            progressBar.setProgress(0);
                         }
                     }
                 }));
